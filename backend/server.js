@@ -4,7 +4,7 @@ const cors=require('cors')
 const app = express();
 app.use(express.json())
 app.use(cors())
-// Replace these with your MySQL database credentials
+// Replace these with your MySQL database credential
 const db = mysql.createConnection({
     host: 'localhost',
     user: 'root',
